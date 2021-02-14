@@ -1,0 +1,59 @@
+---
+---
+
+.ccard {
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  max-width: 40rem;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  margin: 20px;
+}
+.ccard__img {
+  height: 100px;
+  border-radius: 10px;
+  display: block;
+  margin: 10px auto;
+}
+.ccard__head {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: auto;
+  color: #1b202b;
+}
+.ccard--secondary {
+  padding: 0px;
+  margin: 25px 0px;
+  background: #f7fafc;
+  border: 1px solid #e3e8ef;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.ccard--noPadding {
+  padding: 0px;
+}
+.ccard__row {
+  padding: 1rem;
+  border: 1px solid #e3e8ef;
+  font-size: 1rem;
+}
+.ccard__logo {
+  width: 2.5rem;
+  filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+}
+.ccard__footer {
+  border-top: 2px solid rgb(230, 230, 250);
+  margin: auto;
+  padding: 10px;
+  background-color: #f7fafc;
+}
+.ccard--transition {
+  box-shadow: 0 20px 16px rgba(0, 0, 0, 0.3), 0 3px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.ccard--transition:hover {
+  cursor: pointer;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), 0 10px 10px rgba(0, 0, 0, 0.6);
+}
