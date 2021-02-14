@@ -58,3 +58,4 @@ build-iPhoneSimulator/
 # jekyll
 _site/
 .jekyll-metadata
+.jekyll-cache
