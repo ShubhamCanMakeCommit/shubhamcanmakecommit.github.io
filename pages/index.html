@@ -14,7 +14,9 @@ permalink: /
 
 <body id="page">
   <div id="container">
-    <img src="{{site.data.profile.img | relative_url}}" alt="shubham" id="profile-photo" />
+    <div class="fancyImg">
+      <img src="{{site.data.profile.img | relative_url}}" alt="shubham" class="fancyImg__img">
+    </div>
     <div id="spotlight">
       <div id="home-center">
         <h1 id="home-title">{{site.data.name}}</h1>
@@ -38,10 +40,10 @@ permalink: /
           {%endfor%}
         </div>
         <div class="centered">
-          <a href="./contributions.html">Contributions</a>
+          <a href="https://github.com/ShubhamCanMakeCommit">Contributions</a>
         </div>
         <div class="centered">
-          <a href="./projects.html">Projects</a>
+          <a href="#">Projects</a>
         </div>
       </div>
       <div id="home-footer">
