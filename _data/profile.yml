@@ -22,3 +22,12 @@ socialLinks:
     title: Email
     imgSrc: assets/img/social/email.svg
     imgAlt: Email link
+
+projects:
+  - href: /projects/1
+    title: Poorman's React
+    imgSrc: assets/img/projects/react.png
+
+  - href: /projects/1
+    title: Pathfinder
+    imgSrc: assets/img/projects/pathfinderlogo.png
