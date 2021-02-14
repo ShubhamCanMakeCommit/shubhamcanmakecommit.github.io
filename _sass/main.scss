@@ -63,12 +63,10 @@ a {
 }
 #profile-photo {
   display: block;
-  margin: auto;
-  margin-top: 10vh;
-  border-radius: 20%;
+  margin: 10vh auto 2rem auto;
+  border-radius: 5%;
   border: solid #e8eef2 10px;
   height: 30%;
-  filter: grayscale(70%);
 }
 
 .video,
