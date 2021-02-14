@@ -1,0 +1,24 @@
+name: Shubham Shah
+img: assets/img/me.jpg
+adjectives:
+  - Software Engineer
+  - Teacher
+  - Nerd
+  - Flutist
+  - Superstar
+
+socialLinks:
+  - href: https://github.com/shubhamcanmakecommit
+    title: Github
+    imgSrc: assets/img/social/github.svg
+    imgAlt: Github logo
+
+  - href: https://www.linkedin.com/in/shubham-shah-056a61184
+    title: Linkedin
+    imgSrc: assets/img/social/linkedin.svg
+    imgAlt: Linkedin profile
+
+  - href: mailto:shubhamshahrising@gmail.com
+    title: Email
+    imgSrc: assets/img/social/email.svg
+    imgAlt: Email link
