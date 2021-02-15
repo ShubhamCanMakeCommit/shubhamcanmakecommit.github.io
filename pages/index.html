@@ -23,24 +23,24 @@ permalink: /
         </div>
         <div class="centered">
           {%for socialLink in site.data.profile.socialLinks%}
-          <a href="{{socialLink.href}}" target="_blank" rel="noopener me" title="{{socialLink.title}}">
+          <a class="link--white" href="{{socialLink.href}}" target="_blank" rel="noopener me" title="{{socialLink.title}}">
             <img src="{{socialLink.imgSrc | relative_url}}" class="link-icon" alt="Github logo" />
           </a>
           {%endfor%}
         </div>
         <div class="centered">
-          <a href="https://github.com/ShubhamCanMakeCommit">Contributions</a>
+          <a class="link--white" href="https://github.com/ShubhamCanMakeCommit">Contributions</a>
         </div>
         <div class="centered">
-          <a href="/projects">Projects</a>
+          <a class="link--white" href="/projects">Projects</a>
         </div>
       </div>
       <div id="home-footer">
         <p>
-          &copy;<span id="year"> {{ site.time | date_to_string | slice: -4,4 }} </span><a
-            href="https://shubhamcanmakecommit.github.io/portfolioPage/">Shubham Shah</a>
+          &copy;<span id="year"> {{ site.time | date_to_string | slice: -4,4 }} </span>
+          <a class="link--white" href="https://shubhamcanmakecommit.github.io/portfolioPage/">Shubham Shah</a>
           &#183;
-          <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
+          <a class="link--white" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
         </p>
       </div>
     </div>

@@ -5,7 +5,7 @@ permalink: /projects
   <h1>Projects</h1><hr />
   <div class="flex">
     {%for project in site.data.profile.projects%}
-      <a href="{{project.href}}" class="ccard ccard--transition">
+      <a href="{{project.href}}" class="ccard ccard--transition noDecoration">
         <img class="ccard__img" src={{project.imgSrc}} alt={{project.title}}>
         <div class="ccard__head">{{project.title}}</div>
       </a>

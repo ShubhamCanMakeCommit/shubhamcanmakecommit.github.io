@@ -2,4 +2,14 @@ url: '' # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: '' # the subpath of your site, e.g. /blog
 title: 'Shubham S. Shah' # the name of your site, e.g. ACME Corp.
 sass:
-  style: compact
+  style: compressed
+collections:
+  projects:
+    permalink: '/:collection/:path/'
+    output: true
+defaults:
+  - scope:
+      path: _projects
+      type: projects
+    values:
+      layout: showcase

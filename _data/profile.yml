@@ -24,10 +24,10 @@ socialLinks:
     imgAlt: Email link
 
 projects:
-  - href: /projects/1
+  - href: /projects/poorman-react
     title: Poorman's React
-    imgSrc: assets/img/projects/react.png
+    imgSrc: /assets/img/projects/react.png
 
-  - href: /projects/1
+  - href: /projects/pathfinder
     title: Pathfinder
-    imgSrc: assets/img/projects/pathfinderlogo.png
+    imgSrc: /assets/img/projects/pathfinderlogo.png
