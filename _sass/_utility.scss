@@ -1,8 +1,20 @@
 .flex {
   display: flex;
 }
+.wrap {
+  flex-wrap: wrap;
+}
+.jc-center {
+  justify-content: center;
+}
+.cover {
+  flex: 1;
+}
 .noDecoration,
 .noDecoration:visited,
 .noDecoration:hover {
   text-decoration: none;
+}
+.text-center {
+  text-align: center;
 }
