@@ -168,6 +168,11 @@ h1 {
 .post a {
   color: white;
 }
+.post h1,
+.post h2,
+.post h3{
+  text-align:left;
+}
 .post code.language-plaintext {
   font-weight: bold;
   background-color: #272727;
