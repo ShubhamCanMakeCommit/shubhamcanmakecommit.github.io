@@ -1,6 +1,9 @@
 .flex {
   display: flex;
 }
+.flex-min-20{
+  flex: 0 1 20rem;
+}
 .wrap {
   flex-wrap: wrap;
 }
