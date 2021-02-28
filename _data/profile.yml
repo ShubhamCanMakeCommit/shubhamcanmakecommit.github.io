@@ -27,6 +27,9 @@ projects:
   - href: /projects/pathfinder
     title: Pathfinder
     imgSrc: /assets/img/projects/pathfinderlogo.png
+  - href: https://github.com/ShubhamCanMakeCommit/excalikey/blob/master/README.md
+    title: Excalikey
+    imgSrc: /assets/img/projects/excalidraw.png
   - href: /projects/poorman-react
     title: Poorman's React
     imgSrc: /assets/img/projects/react.png
