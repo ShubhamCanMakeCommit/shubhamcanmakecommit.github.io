@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
   --slider-size: 40px;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: $lgray;
   margin: 0px;
 }
@@ -47,7 +47,7 @@ body {
   text-align: center;
 }
 .fancyImg {
-  background: url(/assets/img/background.jpg);
+  background: url(/assets/img/background.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ h1 {
 .post h2,
 .post h3 {
   text-align: left;
-  font-family: "Bungee";
+  font-family: 'Bungee';
 }
 .post code.language-plaintext {
   font-weight: bold;
