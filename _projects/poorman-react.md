@@ -1,4 +1,5 @@
 ---
+layout: showcase
 ---
 
 # Poorman's React
