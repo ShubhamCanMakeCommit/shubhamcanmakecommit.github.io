@@ -1,6 +1,9 @@
----
-layout: default
----
-<div class="post text--white">
-  {{- content -}}
-</div>
+{%- include top.html -%}
+<body class="wrap text--white">
+  {% include navbar.html %}
+  <div class="post text--white">
+   {{- content -}}
+  </div>  
+  <script src="/assets/js/navbar.js"></script>
+</body>
+</html>

@@ -3,47 +3,57 @@ layout: default
 permalink: /
 current: home
 ---
-  <div id="container">
-    <div class="profile">
-      <div class="profile__background"></div>
-      <img src="{{site.data.profile.img | relative_url}}" class="profile__img" alt="shubham">
-    </div>
-    <div id="spotlight">
-      <div id="home-center">
-        <h1 id="home-title">{{site.data.name}}</h1>
-        <div id="fancy-slider-container">
-          <div>I'm a</div>
-          <div id="fancy-about-me">
-            <b>
-              <div id="stat-container">
-                {%for adjective in site.data.profile.adjectives%}
-                <div>{{adjective}}</div>
-                {%endfor%}
-              </div>
-            </b>
-          </div>
-        </div>
-        <div class="centered">
-          {%for socialLink in site.data.profile.socialLinks%}
-          <a class="link--white" href="{{socialLink.href}}" target="_blank" rel="noopener me" title="{{socialLink.title}}">
-            <img src="{{socialLink.imgSrc | relative_url}}" class="link-icon" alt="Github logo" />
-          </a>
-          {%endfor%}
-        </div>
-        <div class="centered">
-          <a class="link--white" href="https://github.com/ShubhamCanMakeCommit">Contributions</a>
-        </div>
-        <div class="centered">
-          <a class="link--white" href="/projects">Projects</a>
-        </div>
-      </div>
-      <div id="home-footer">
-        <p>
-          &copy;<span id="year"> {{ site.time | date_to_string | slice: -4,4 }} </span>
-          <a class="link--white" href="https://shubhamcanmakecommit.github.io/portfolioPage/">Shubham Shah</a>
-          &#183;
-          <a class="link--white" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>
-        </p>
-      </div>
-    </div>
+
+<div id="container">
+  <div class="profile">
+    <div class="profile__background"></div>
+    <img
+      src="{{site.data.profile.img | relative_url}}"
+      class="profile__img"
+      alt="shubham"
+    />
   </div>
+  <div id="spotlight">
+    <div id="home-center">
+      <h1 id="home-title">{{site.data.name}}</h1>
+      <div id="fancy-slider-container">
+        <div>I'm a</div>
+        <div class="fancy-slider">
+          <b>
+            <div class="fancy-slider__text">
+              {%for adjective in site.data.profile.adjectives%}
+              <div>{{adjective}}</div>
+              {%endfor%}
+            </div>
+          </b>
+        </div>
+      </div>
+      <div class="centered">
+        {%for socialLink in site.data.profile.socialLinks%}
+        <a
+          class="link--white"
+          href="{{socialLink.href}}"
+          target="_blank"
+          rel="noopener me"
+          title="{{socialLink.title}}"
+        >
+          <img
+            src="{{socialLink.imgSrc | relative_url}}"
+            class="link-icon"
+            alt="Github logo"
+          />
+        </a>
+        {%endfor%}
+      </div>
+      <div class="centered">
+        <a class="link--white" href="https://github.com/ShubhamCanMakeCommit"
+          >Contributions</a
+        >
+      </div>
+      <div class="centered">
+        <a class="link--white" href="/projects">Projects</a>
+      </div>
+    </div>
+
+  </div>
+</div>
