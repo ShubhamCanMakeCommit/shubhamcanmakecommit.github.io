@@ -7,10 +7,18 @@ collections:
   projects:
     permalink: '/:collection/:path/'
     output: true
+  contributions:
+    permalink: '/:collection/:path/'
+    output: true
 defaults:
   - scope:
       path: _projects
       type: projects
+    values:
+      layout: showcase
+  - scope:
+      path: _contributions
+      type: contributions
     values:
       layout: showcase
 plugins:

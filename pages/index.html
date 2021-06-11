@@ -15,9 +15,9 @@ current: home
   </div>
   <div id="spotlight">
     <div id="home-center">
-      <h1 id="home-title">{{site.data.name}}</h1>
+      <div class="fancy-font"> I'm {{ site.data.profile.name }} </div>
       <div id="fancy-slider-container">
-        <div>I'm a</div>
+        <div>I'm</div>
         <div class="fancy-slider">
           <b>
             <div class="fancy-slider__text">
@@ -28,10 +28,10 @@ current: home
           </b>
         </div>
       </div>
-      <div class="centered">
+      <div class="social-links centered">
         {%for socialLink in site.data.profile.socialLinks%}
         <a
-          class="link--white"
+          class="social-links__link link--white"
           href="{{socialLink.href}}"
           target="_blank"
           rel="noopener me"
@@ -39,21 +39,12 @@ current: home
         >
           <img
             src="{{socialLink.imgSrc | relative_url}}"
-            class="link-icon"
+            class="social-links__icon link-icon"
             alt="Github logo"
           />
         </a>
         {%endfor%}
       </div>
-      <div class="centered">
-        <a class="link--white" href="https://github.com/ShubhamCanMakeCommit"
-          >Contributions</a
-        >
-      </div>
-      <div class="centered">
-        <a class="link--white" href="/projects">Projects</a>
-      </div>
     </div>
-
   </div>
 </div>

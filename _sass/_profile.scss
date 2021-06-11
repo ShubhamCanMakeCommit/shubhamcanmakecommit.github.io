@@ -5,7 +5,7 @@ $profile-img-dimension: 10rem;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0px 0px 25% 25%;
-  height: 40vh;
+  height: 30vh;
   margin: auto;
 }
 .profile__img {
@@ -19,7 +19,7 @@ $profile-img-dimension: 10rem;
 @media only screen and (max-width: 800px) {
   .profile__background {
     width: 100vw;
-    background: #2d204c;
     height: 20vh;
+    background: none;
   }
 }
