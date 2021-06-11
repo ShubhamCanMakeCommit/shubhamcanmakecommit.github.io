@@ -1,7 +1,10 @@
+/*
+Should use when a component is used at many places and differs in just one or two properties
+*/
 .flex {
   display: flex;
 }
-.flex-min-20{
+.flex-min-20 {
   flex: 0 1 20rem;
 }
 .wrap {

@@ -1,0 +1,25 @@
+$profile-img-dimension: 10rem;
+.profile__background {
+  background: url(/assets/img/background.png);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 25% 25%;
+  height: 40vh;
+  margin: auto;
+}
+.profile__img {
+  width: $profile-img-dimension;
+  height: $profile-img-dimension;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: -5rem auto 1rem auto;
+}
+@media only screen and (max-width: 800px) {
+  .profile__background {
+    width: 100vw;
+    background: #2d204c;
+    height: 20vh;
+  }
+}
