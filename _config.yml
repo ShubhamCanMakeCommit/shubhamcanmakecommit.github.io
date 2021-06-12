@@ -5,13 +5,29 @@ sass:
   style: compressed
 collections:
   projects:
-    permalink: '/:collection/:name/'
+    permalink: '/:collection/:path/'
     output: true
   contributions:
-    permalink: '/:collection/:name/'
+    permalink: '/:collection/:path/'
     output: true
   blog:
-    permalink: '/:collection/:name/'
+    permalink: '/:collection/:path/'
     output: true
+defaults:
+  - scope:
+      path: _projects
+      type: projects
+    values:
+      layout: post
+  - scope:
+      path: _contributions
+      type: contributions
+    values:
+      layout: post
+  - scope:
+      path: _blog
+      type: blog
+    values:
+      layout: post
 plugins:
   - jemoji
