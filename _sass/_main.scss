@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 //Default variables
-@import 'default';
+@import "default";
 
 //Code highlighter style
-@import 'highlight';
+@import "highlight";
 
-@import 'font';
-@import 'card';
-@import 'modal';
-@import 'utility';
-@import 'link';
-@import 'navbar';
-@import 'fancy-slider';
-@import 'profile';
-@import 'post';
-@import 'search';
+@import "font";
+@import "card";
+@import "modal";
+@import "utility";
+@import "link";
+@import "navbar";
+@import "fancy-slider";
+@import "profile";
+@import "post";
+@import "search";
 
 body {
   font-family: $regular-font, sans-serif;
@@ -45,7 +45,7 @@ body {
 }
 .copyright {
   position: absolute;
-  bottom: 1rem;
+  bottom: 0px;
   text-align: center;
   width: 100%;
   font-size: 1rem;
