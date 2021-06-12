@@ -3,7 +3,7 @@
   color: #e8eef2;
 }
 .f-1 {
-  font-family: Roboto;
+  font-family: $regular-font;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -11,7 +11,7 @@
   color: #333333;
 }
 .f-2 {
-  font-family: Roboto;
+  font-family: $regular-font;
   font-style: normal;
   font-weight: bold;
   font-size: 1.5rem;
@@ -21,7 +21,7 @@
 }
 /*subtitle fonts which are gray and ususally used for extra information*/
 .sf-1 {
-  font-family: Roboto;
+  font-family: $regular-font;
   font-style: normal;
   font-weight: normal;
   font-size: 0.9rem;
@@ -30,14 +30,14 @@
   color: #748094;
 }
 .normal {
-  font-family: Roboto;
+  font-family: $regular-font;
   font-style: normal;
   font-weight: normal;
   letter-spacing: 0.01rem;
   color: #1b202b;
 }
 .emphasize {
-  font-family: Roboto;
+  font-family: $regular-font;
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
@@ -47,14 +47,14 @@
   margin: 1rem 0rem;
 }
 .fancy-font {
-  font-family: "Bungee", "sans-serif";
+  font-family: $fancy-font, 'sans-serif';
 }
-.color-grey{
+.color-grey {
   color: #c6cddb;
 }
-.size-1{
+.size-1 {
   font-size: 1rem;
 }
-.size-2{
+.size-2 {
   font-size: 2rem;
 }

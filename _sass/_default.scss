@@ -1,0 +1,13 @@
+$body-background: #494f5c !default;
+$fancy-font: Bungee !default;
+$regular-font: Roboto !default;
+
+.body-background {
+  background-color: $body-background;
+}
+.fancy-font {
+  font-family: $fancy-font, sans-serif;
+}
+.regular-font {
+  font-family: $regular-font, sans-serif;
+}

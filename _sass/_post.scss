@@ -16,7 +16,7 @@
 .post h2,
 .post h3 {
   text-align: left;
-  font-family: "Bungee";
+  font-family: $fancy-font;
 }
 .post code.language-plaintext {
   font-weight: bold;
@@ -38,4 +38,3 @@
   padding: 1rem;
   margin: 0px;
 }
-

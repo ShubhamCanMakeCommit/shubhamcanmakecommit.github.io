@@ -1,24 +1,33 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+//Default variables
+@import 'default';
 
 //Code highlighter style
-@import "highlight";
+@import 'highlight';
 
-@import "font";
-@import "card";
-@import "modal";
-@import "utility";
-@import "link";
-@import "navbar";
-@import "fancy-slider";
-@import "profile";
-@import "post";
+@import 'font';
+@import 'card';
+@import 'modal';
+@import 'utility';
+@import 'link';
+@import 'navbar';
+@import 'fancy-slider';
+@import 'profile';
+@import 'post';
+@import 'search';
 
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: $lgray;
+  font-family: $regular-font, sans-serif;
+  background-color: $body-background;
   margin: 0px;
 }
-
+.page__container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 90vw;
+  padding: 40px 40px;
+}
 #spotlight {
   display: flex;
   flex-direction: column;
