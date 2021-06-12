@@ -1,6 +1,8 @@
 ---
-layout: post-home
 permalink: /blog
-search:
-  placeholder: Search Blogposts
 ---
+
+# Blog Topics
+
+## React
+[React  101](/blog/react/react-101)
