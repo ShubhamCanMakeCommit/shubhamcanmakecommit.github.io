@@ -1,4 +1,10 @@
-{%- include top.html -%}
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ '/assets/styles/main.css' | relative_url }}" />
+  <title>{{site.title}}</title>
+</head>
 <body class="wrap text--white">
   {% include navbar.html %}
   {{- content -}}  
