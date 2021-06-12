@@ -1,5 +1,4 @@
 ---
-layout: showcase
 ---
 
 # Pathfinder

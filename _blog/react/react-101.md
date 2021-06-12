@@ -1,5 +1,4 @@
 ---
-layout: showcase
 ---
 # React - Frontend Library
 
