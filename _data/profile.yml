@@ -33,5 +33,5 @@ projects:
     imgSrc: /assets/img/projects/excalidraw.png
   - href: /projects/poorman-react
     title: Poorman's React
-    imgSrc: /assets/img/projects/react.png
+    imgSrc: /assets/img/logo/react.png
 
