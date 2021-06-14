@@ -19,14 +19,14 @@ My personal portfolio site created using Jekyll
         layout: _name-of-layout
   ```
 
-### Content files
+## Content files
 - It is necessary for content files to have front matter so that jekyll can process them or else they are not rendered.( front matter are three dashes followed by three dashes on another line as shown below)
   ```yml
   ---
   ---
   ```
 
-### Styling - CSS and Sass files
+## Styling - CSS and Sass files
 - Jekyll by default processes the sass files in `_sass` folder.
 - In the `./assets/styles` folder the css or sass files can be put which can be then linked inside of html files. Even if it is a sass file we can use `.css` extension
 - In the sass folder each file(the file name matching to that of component name) is broken down into it's separate component which follows the BEM convention: `component-name__child-of-component--modifier`
