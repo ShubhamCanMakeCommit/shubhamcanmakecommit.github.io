@@ -43,7 +43,9 @@ Eg. There is a fancy slider component which is imported inside of the `_main.scs
 - Includes contain the components which the layouts can use as building blocks to match their own needs like navbar, post, footer, sidebar.
 - An include can't include another include but can include styles and other assets.
 
+## Markdown
 
+### Blog
 
-
+- We can add an image inside of a heading which is preceded by `#`. For eg. When we type this `## ![img alt](img_url) Heading` then the formatting would be correct but it won't be if `## Heading [img alt](img_url)`
 
